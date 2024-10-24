@@ -1,1 +1,13 @@
 
+{
+  "name": "Whisper Development Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",  
+  "features": {},
+  "extensions": [
+    "ms-python.python"
+  ],
+  "postCreateCommand": "pip install git+https://github.com/openai/whisper.git moviepy psutil",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
