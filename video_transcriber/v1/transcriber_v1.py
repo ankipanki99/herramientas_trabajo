@@ -1,3 +1,10 @@
+# v1 - Versión Básica
+# Este script realiza la transcripción de audio desde archivos de video utilizando el modelo "medium" de Whisper.
+# Funcionalidades:
+# - Extrae el audio del video.
+# - Transcribe el audio a texto.
+# - Guarda el resultado en un archivo de texto.
+
 import whisper
 import moviepy.editor as mp
 import os
@@ -90,4 +97,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
